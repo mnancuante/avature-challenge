@@ -89,11 +89,11 @@ Start Apache and MySQL using XAMPP.
 
 Ensure your PHP environment is correctly set up.
 
-Test the API
+- Test the API
 
 Use Thunder Client, Postman, or any API testing tool to make requests.
 
-Usage
+- Usage
 
 Retrieve Job Offers: Make a GET request to /api/index.php
 
@@ -105,9 +105,13 @@ The description parameter is optional, and you must insert at least 1 skill.
 
 {
   "title": "Fullstack Web Developer",
+  
   "country": "Argelia",
+  
   "salary": "70000",
-  "description": "Designs and creates web apps"
+  
+  "description": "Designs and creates web apps",
+  
   "skills": ["PHP", "SQL", "Laravel"]
 }
 
